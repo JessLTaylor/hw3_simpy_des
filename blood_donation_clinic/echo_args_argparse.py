@@ -14,10 +14,10 @@ def process_command_line():
                                      description='Run Blood Donation clinic simulation')
 
     # Add arguments
-    parser.add_argument("-i", "--iat", help="patients per hour",
+    parser.add_argument("--iat", help="patients per hour",
                         type=float)
 
-    parser.add_argument("-g", "--greet", help="number of greeters",
+    parser.add_argument("--greet", help="number of greeters",
                         type=int)
 
     parser.add_argument("--reg", help="number of registration staff",

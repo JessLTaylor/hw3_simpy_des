@@ -478,7 +478,7 @@ def process_command_line():
         help="Configuration file containing input parameter arguments and values"
     )
 
-    parser.add_argument("--patient_arrival_rate", default=50, help="patients per hour",
+    parser.add_argument("--patient_arrival_rate", default=150, help="patients per hour",
                         type=float)
 
     parser.add_argument("--num_greeters", default=2, help="number of greeters",
